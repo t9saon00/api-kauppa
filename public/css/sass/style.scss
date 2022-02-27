@@ -1,0 +1,20 @@
+body { width: 1020px; }
+
+.login-form-field {
+    display: none;
+    &.active { display: block; }
+}
+
+.login-btn, .secret-field { 
+    display: none; 
+    &.active { display: block; }
+}
+
+.google-qr-link { position: absolute; top: 85px; }
+
+.products {
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    .product-wrapper {
+        border: 1px solid gray; width: 163px; padding: 5px 10px 10px 7px; margin-right: 20px; margin-bottom: 20px;
+    } 
+} 

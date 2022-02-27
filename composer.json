@@ -1,0 +1,23 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.5",
+        "slim/php-view": "^3.1",
+        "sonata-project/google-authenticator": "^2.3",
+        "firebase/php-jwt": "^5.2",
+        "laminas/laminas-config": "^3.5.0"
+
+    },
+	"config": {
+    "optimize-autoloader": true
+	},
+    "autoload": {
+        "psr-4": {
+            "Slimapp\\": "App/"
+        },
+		  "classmap": [
+			"App/",
+		],
+    }
+
+}
